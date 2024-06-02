@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>MCG - Storico</title>
+    <style>
+        header, section, footer, aside, nav, article, figure, figcaption {
+            display: block;
+        }
+        body {
+            color: #666666;
+            background-color: #f9f8f6;
+            background-image: url("image-sfondoe.jpg");
+            background-position: center;
+            font-family: Georgia, Times, serif;
+            line-height: 1.4em;
+            margin: 0;
+        }
+        .wrapper {
+            width: 940px;
+            margin: 20px auto;
+            border: 2px solid #000000;
+            background-color: #ffffff;
+        }
+        header {
+            height: 160px;
+            background-image: url("image-logo.jpg");
+            background-position: center;
+            background-size: 300px auto;
+        }
+        h1 {
+            text-indent: -9999px;
+            width: 940px;
+            height: 130px;
+            margin: 0;
+        }
+        nav, footer {
+            clear: both;
+            color: #ffffff;
+            background-color: #97bab9;
+            height: 30px;
+        }
+        nav ul {
+            margin: 0;
+            padding: 5px 0 5px 30px;
+        }
+        nav li {
+            display: inline;
+            margin-right: 40px;
+        }
+        nav li a {
+            color: #ffffff;
+            transition: color 0.3s;
+        }
+        nav li a:hover, nav li a.current {
+            color: #000000;
+        }
+        section.courses {
+            float: left;
+            width: 659px;
+            border-right: 1px solid #eeeeee;
+        }
+        article {
+            clear: both;
+            overflow: auto;
+            width: 100%;
+        }
+        hgroup {
+            margin-top: 40px;
+        }
+        figure {
+            float: left;
+            width: 290px;
+            height: 220px;
+            padding: 5px;
+            margin: 20px;
+            border: 1px solid #eeeeee;
+        }
+        figcaption {
+            font-size: 90%;
+            text-align: left;
+        }
+        aside {
+            width: 230px;
+            float: left;
+            padding: 0 0 0 20px;
+        }
+        aside section a {
+            display: block;
+            padding: 10px;
+            border-bottom: 1px solid #eeeeee;
+            color: #000000; /* Cambiato da rosso a nero */
+            transition: background-color 0.3s, color 0.3s;
+        }
+        aside section a:hover {
+            color: #985d6a;
+            background-color: #efefef;
+        }
+        a {
+            color: #de6581;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: #985d6a;
+        }
+        h1, h2, h3 {
+            font-weight: normal;
+        }
+        h2 {
+            margin: 10px 0 5px 0;
+            padding: 0;
+        }
+        h3 {
+            margin: 0 0 10px 0;
+            color: #de6581;
+        }
+        aside h2 {
+            padding: 30px 0 10px 0;
+            color: #de6581;
+        }
+        footer {
+            font-size: 80%;
+            padding: 7px 0 0 20px;
+        }
+    </style>
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header>
+            <h1>Memory Color Game</h1>
+            <nav>
+                <ul>
+                    <li><a href="http://localhost/MCG_project/" class="current">Home</a></li>
+                    <li><a href="Ultime partite.php">Ultime Partite</a></li>
+                    <li><a href="Punteggi facili.php">Punteggi Facili</a></li>
+                    <li><a href="Punteggi difficili.php">Punteggi Difficili</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="courses">
+            <article>
+                <figure>
+                    <img src="image-circuito.jpg" alt="Prototipo MCG" width="285" height="200">
+                    <figcaption>Prototipo di circuito MCG</figcaption>
+                </figure>
+                <hgroup>
+                    <h2>La nostra idea</h2>
+                    <h3>Descrizione del progetto</h3>
+                </hgroup>
+                <p>Il nostro progetto consiste nel realizzare un gioco basato sulla memorizzazione di una sequenza casuale di colori con relativi segnali acustici e di riprodurla nel modo esatto. In caso di corretta inserzione, il gioco riproduce la stessa sequenza con l'aggiunta di un nuovo colore (e relativo suono), altrimenti il gioco si interrompe.</p>
+            </article>
+
+            <article>
+                <figure>
+                    <img src="image-social.jpg" alt="Social" width="285" height="200">
+                    <figcaption>I nostri contatti</figcaption>
+                </figure>
+                <hgroup>
+                    <h2>Chi siamo...</h2>
+                    <h3>... e dove puoi trovarci!</h3>
+                </hgroup>
+                <p>Siamo Raffaella Moccia e Pasquale Vassallo, gli sviluppatori del seguente progetto. Se volete mettervi in contatto con noi, potete farlo ai seguenti link :</p>
+                <a href="https://www.instagram.com/_raffaellamoccia_/">Profilo di Raffaella Moccia</a>
+                <br>
+                <a href="https://www.instagram.com/pasquale_vass/">Profilo di Pasquale Vassallo</a>
+            </article>
+        </section>
+
+        <aside>
+            <section class="sections">
+                <h2>Sezioni disponibili</h2>
+                <a href="https://pasqualevassallo.my.canva.site/mcg-project">Report Progetto</a>
+                <a href="Ultime partite.php">Ultime Partite</a>
+                <a href="Punteggi facili.php">Punteggi Facili</a>
+                <a href="Punteggi difficili.php">Punteggi Difficili</a>
+            </section>
+            <section class="info-esame">
+                <h2>Info Esame</h2>
+                <p>Corso di IoT - 2024<br>
+                    Professore C.Mazzocca<br>
+                    Data : 5 giugno 2024<br>
+                    <a href="https://www.unicampania.it/">Ingegneria Informatica - Universita' Luigi Vanvitelli</a></p>
+            </section>
+        </aside>
+
+        <footer>
+            &copy; 2024 MCG-Project. Tutti i diritti riservati.
+        </footer>
+        
+    </div>
+</body>
+</html>
