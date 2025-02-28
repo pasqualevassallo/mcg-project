@@ -9,10 +9,10 @@
 #define STATE_SHOW 1
 #define STATE_REPEAT 2
 
-String URL = "http://172.20.10.2/MCG_project/UserInfo.php";
-String site = "http://localhost/MCG_project/";
-const char* ssid = "iPhone di Pasquale";
-const char* password = "987654321";
+String URL = "//insert";
+String site = "//insert";
+const char* ssid = "//insert";
+const char* password = "//insert";
 
 int buttons[4] = {32, 25, 14, 19};
 int led[4] = {33, 26, 12, 18};
